@@ -15,10 +15,6 @@ import type { IProductMeta } from './product.types'
 import { useProductsStore } from './product.store'
 
 const store = useProductsStore()
-
-// const setPage = (value: number) => {
-//   console.log(value)
-// }
 </script>
 
 <template>
