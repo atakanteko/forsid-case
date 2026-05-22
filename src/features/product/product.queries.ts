@@ -5,7 +5,7 @@ import { useProductsStore } from './product.store'
 import { getProducts, updateProductStock } from './product.api'
 import { computed } from 'vue'
 
-const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
+// const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 
 export function useProducts() {
   const store = useProductsStore()
@@ -20,7 +20,7 @@ export function useProducts() {
   return useQuery<IProductResponse>({
     queryKey: ['products', filters],
     queryFn: async () => {
-      await sleep(4000)
+      // await sleep(4000)
       return getProducts(filters.value)
     },
     placeholderData: (previousData) => previousData,
