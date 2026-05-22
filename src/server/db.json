@@ -5,27 +5,2700 @@
       "name": "Basic T-Shirt",
       "sku": "SKU-001",
       "price": 499.9,
-      "stock_quantity": 25,
+      "stock_quantity": 0,
       "is_active": true,
-      "updated_at": "2026-05-20T21:12:14.115Z"
+      "updated_at": "2026-05-22T01:27:14.354Z"
     },
     {
       "id": 2,
       "name": "Black Hoodie",
       "sku": "SKU-002",
       "price": 899.9,
-      "stock_quantity": 0,
-      "is_active": true,
-      "updated_at": "2026-05-10"
+      "stock_quantity": 6,
+      "is_active": false,
+      "updated_at": "2026-05-22T01:48:31.240Z"
     },
     {
       "id": 3,
       "name": "Slim Fit Jeans",
       "sku": "SKU-003",
       "price": 1299.9,
-      "stock_quantity": 5,
+      "stock_quantity": 620,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Oversized Sweatshirt",
+      "sku": "SKU-004",
+      "price": 949.9,
+      "stock_quantity": 2300,
       "is_active": false,
-      "updated_at": "2026-05-12"
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Cargo Pants",
+      "sku": "SKU-005",
+      "price": 1499.9,
+      "stock_quantity": 1100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Denim Jacket",
+      "sku": "SKU-006",
+      "price": 1799.9,
+      "stock_quantity": 450,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "name": "Sports Shorts",
+      "sku": "SKU-007",
+      "price": 399.9,
+      "stock_quantity": 3000,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "name": "Leather Belt",
+      "sku": "SKU-008",
+      "price": 299.9,
+      "stock_quantity": 1800,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "name": "Cotton Socks (5-Pack)",
+      "sku": "SKU-009",
+      "price": 199.9,
+      "stock_quantity": 5000,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "name": "Knit Sweater",
+      "sku": "SKU-010",
+      "price": 1199.9,
+      "stock_quantity": 750,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "name": "Running Shoes",
+      "sku": "SKU-011",
+      "price": 2499.9,
+      "stock_quantity": 1200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "name": "Baseball Cap",
+      "sku": "SKU-012",
+      "price": 349.9,
+      "stock_quantity": 2100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "name": "Winter Coat",
+      "sku": "SKU-013",
+      "price": 3899.9,
+      "stock_quantity": 340,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "name": "Polo Shirt",
+      "sku": "SKU-014",
+      "price": 649.9,
+      "stock_quantity": 1650,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 15,
+      "name": "Chino Pants",
+      "sku": "SKU-015",
+      "price": 1149.9,
+      "stock_quantity": 980,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 16,
+      "name": "Leather Jacket",
+      "sku": "SKU-016",
+      "price": 4500,
+      "stock_quantity": 250,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 17,
+      "name": "Ankle Socks",
+      "sku": "SKU-017",
+      "price": 149.9,
+      "stock_quantity": 4200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 18,
+      "name": "Canvas Backpack",
+      "sku": "SKU-018",
+      "price": 1299.9,
+      "stock_quantity": 880,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 19,
+      "name": "V-Neck Cardigan",
+      "sku": "SKU-019",
+      "price": 999.9,
+      "stock_quantity": 710,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 20,
+      "name": "Swimming Shorts",
+      "sku": "SKU-020",
+      "price": 450,
+      "stock_quantity": 1950,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 21,
+      "name": "Tracksuit Bottoms",
+      "sku": "SKU-021",
+      "price": 799.9,
+      "stock_quantity": 1400,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 22,
+      "name": "Windbreaker Jacket",
+      "sku": "SKU-022",
+      "price": 1599.9,
+      "stock_quantity": 600,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 23,
+      "name": "Beanie Hat",
+      "sku": "SKU-023",
+      "price": 249.9,
+      "stock_quantity": 2500,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 24,
+      "name": "Linen Shirt",
+      "sku": "SKU-024",
+      "price": 899.9,
+      "stock_quantity": 1150,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 25,
+      "name": "Formal Blazer",
+      "sku": "SKU-025",
+      "price": 2999.9,
+      "stock_quantity": 480,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 26,
+      "name": "Casual Sneakers",
+      "sku": "SKU-026",
+      "price": 1899.9,
+      "stock_quantity": 1350,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 27,
+      "name": "Aviator Sunglasses",
+      "sku": "SKU-027",
+      "price": 599.9,
+      "stock_quantity": 1700,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 28,
+      "name": "Puffer Vest",
+      "sku": "SKU-028",
+      "price": 1399.9,
+      "stock_quantity": 530,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 29,
+      "name": "Leather Boots",
+      "sku": "SKU-029",
+      "price": 3499.9,
+      "stock_quantity": 390,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 30,
+      "name": "Graphic Tee",
+      "sku": "SKU-030",
+      "price": 549.9,
+      "stock_quantity": 2800,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 31,
+      "name": "Denim Shorts",
+      "sku": "SKU-031",
+      "price": 749.9,
+      "stock_quantity": 1250,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 32,
+      "name": "Fleece Pullover",
+      "sku": "SKU-032",
+      "price": 1099.9,
+      "stock_quantity": 920,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 33,
+      "name": "Leather Wallet",
+      "sku": "SKU-033",
+      "price": 449.9,
+      "stock_quantity": 2150,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 34,
+      "name": "Rain Trousers",
+      "sku": "SKU-034",
+      "price": 899.9,
+      "stock_quantity": 410,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 35,
+      "name": "Sports Socks (3-Pack)",
+      "sku": "SKU-035",
+      "price": 249.9,
+      "stock_quantity": 3600,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 36,
+      "name": "Smart Oxford Shirt",
+      "sku": "SKU-036",
+      "price": 1049.9,
+      "stock_quantity": 1100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 37,
+      "name": "Woolen Scarf",
+      "sku": "SKU-037",
+      "price": 349.9,
+      "stock_quantity": 1450,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 38,
+      "name": "Running Tights",
+      "sku": "SKU-038",
+      "price": 699.9,
+      "stock_quantity": 1300,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 39,
+      "name": "Bomber Jacket",
+      "sku": "SKU-039",
+      "price": 1999.9,
+      "stock_quantity": 780,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 40,
+      "name": "Slide Sandals",
+      "sku": "SKU-040",
+      "price": 299.9,
+      "stock_quantity": 2700,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 41,
+      "name": "Gym Tank Top",
+      "sku": "SKU-041",
+      "price": 349.9,
+      "stock_quantity": 1900,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 42,
+      "name": "Corduroy Trousers",
+      "sku": "SKU-042",
+      "price": 1349.9,
+      "stock_quantity": 650,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 43,
+      "name": "Leather Gloves",
+      "sku": "SKU-043",
+      "price": 499.9,
+      "stock_quantity": 900,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 44,
+      "name": "Zip-Up Hoodie",
+      "sku": "SKU-044",
+      "price": 949.9,
+      "stock_quantity": 1750,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 45,
+      "name": "Trench Coat",
+      "sku": "SKU-045",
+      "price": 3299.9,
+      "stock_quantity": 430,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 46,
+      "name": "Suede Loafers",
+      "sku": "SKU-046",
+      "price": 2299.9,
+      "stock_quantity": 510,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 47,
+      "name": "Bucket Hat",
+      "sku": "SKU-047",
+      "price": 279.9,
+      "stock_quantity": 2200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 48,
+      "name": "Henley Shirt",
+      "sku": "SKU-048",
+      "price": 599.9,
+      "stock_quantity": 1400,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 49,
+      "name": "Cargo Shorts",
+      "sku": "SKU-049",
+      "price": 849.9,
+      "stock_quantity": 1600,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 50,
+      "name": "Tracksuit Top",
+      "sku": "SKU-050",
+      "price": 999.9,
+      "stock_quantity": 1100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 51,
+      "name": "Denim Shirt",
+      "sku": "SKU-051",
+      "price": 899.9,
+      "stock_quantity": 1200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 52,
+      "name": "Knitted Vest",
+      "sku": "SKU-052",
+      "price": 699.9,
+      "stock_quantity": 800,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 53,
+      "name": "Running Cap",
+      "sku": "SKU-053",
+      "price": 319.9,
+      "stock_quantity": 1500,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 54,
+      "name": "Parka Coat",
+      "sku": "SKU-054",
+      "price": 3699.9,
+      "stock_quantity": 470,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 55,
+      "name": "Lounge Trousers",
+      "sku": "SKU-055",
+      "price": 749.9,
+      "stock_quantity": 2100,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 56,
+      "name": "Formal Shoes",
+      "sku": "SKU-056",
+      "price": 2799.9,
+      "stock_quantity": 620,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 57,
+      "name": "Tie & Pocket Square Set",
+      "sku": "SKU-057",
+      "price": 399.9,
+      "stock_quantity": 1300,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 58,
+      "name": "Thermal Top",
+      "sku": "SKU-058",
+      "price": 499.9,
+      "stock_quantity": 1850,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 59,
+      "name": "Thermal Leggings",
+      "sku": "SKU-059",
+      "price": 499.9,
+      "stock_quantity": 1700,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 60,
+      "name": "Suede Jacket",
+      "sku": "SKU-060",
+      "price": 4299.9,
+      "stock_quantity": 280,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 61,
+      "name": "Striped T-Shirt",
+      "sku": "SKU-061",
+      "price": 529.9,
+      "stock_quantity": 2400,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 62,
+      "name": "Plaid Shirt",
+      "sku": "SKU-062",
+      "price": 799.9,
+      "stock_quantity": 1350,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 63,
+      "name": "Skinny Jeans",
+      "sku": "SKU-063",
+      "price": 1299.9,
+      "stock_quantity": 950,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 64,
+      "name": "Fleece Jacket",
+      "sku": "SKU-064",
+      "price": 1249.9,
+      "stock_quantity": 870,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 65,
+      "name": "Washed Denim Shorts",
+      "sku": "SKU-065",
+      "price": 799.9,
+      "stock_quantity": 1100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 66,
+      "name": "Chelsea Boots",
+      "sku": "SKU-066",
+      "price": 3199.9,
+      "stock_quantity": 420,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 67,
+      "name": "Duffel Bag",
+      "sku": "SKU-067",
+      "price": 1699.9,
+      "stock_quantity": 640,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 68,
+      "name": "Sports Bra",
+      "sku": "SKU-068",
+      "price": 499.9,
+      "stock_quantity": 1800,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 69,
+      "name": "Yoga Pants",
+      "sku": "SKU-069",
+      "price": 899.9,
+      "stock_quantity": 2200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 70,
+      "name": "Summer Dress",
+      "sku": "SKU-070",
+      "price": 1499.9,
+      "stock_quantity": 930,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 71,
+      "name": "Maxi Skirt",
+      "sku": "SKU-071",
+      "price": 999.9,
+      "stock_quantity": 750,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 72,
+      "name": "Blouse Shirt",
+      "sku": "SKU-072",
+      "price": 799.9,
+      "stock_quantity": 1400,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 73,
+      "name": "Cropped Hoodie",
+      "sku": "SKU-073",
+      "price": 849.9,
+      "stock_quantity": 1600,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 74,
+      "name": "Bikini Set",
+      "sku": "SKU-074",
+      "price": 699.9,
+      "stock_quantity": 1250,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 75,
+      "name": "Straw Hat",
+      "sku": "SKU-075",
+      "price": 349.9,
+      "stock_quantity": 1100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 76,
+      "name": "Tote Bag",
+      "sku": "SKU-076",
+      "price": 249.9,
+      "stock_quantity": 3100,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 77,
+      "name": "Pyjama Set",
+      "sku": "SKU-077",
+      "price": 999.9,
+      "stock_quantity": 1450,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 78,
+      "name": "Dressing Gown",
+      "sku": "SKU-078",
+      "price": 1599.9,
+      "stock_quantity": 680,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 79,
+      "name": "Slippers",
+      "sku": "SKU-079",
+      "price": 399.9,
+      "stock_quantity": 2600,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 80,
+      "name": "Woolen Socks (2-Pack)",
+      "sku": "SKU-080",
+      "price": 299.9,
+      "stock_quantity": 1900,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 81,
+      "name": "Oversized T-Shirt",
+      "sku": "SKU-081",
+      "price": 549.9,
+      "stock_quantity": 3200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 82,
+      "name": "High Waisted Shorts",
+      "sku": "SKU-082",
+      "price": 649.9,
+      "stock_quantity": 1500,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 83,
+      "name": "Mom Jeans",
+      "sku": "SKU-083",
+      "price": 1399.9,
+      "stock_quantity": 1150,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 84,
+      "name": "Denim Skirt",
+      "sku": "SKU-084",
+      "price": 849.9,
+      "stock_quantity": 900,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 85,
+      "name": "Rain Jacket",
+      "sku": "SKU-085",
+      "price": 1899.9,
+      "stock_quantity": 720,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 86,
+      "name": "Umbrella",
+      "sku": "SKU-086",
+      "price": 299.9,
+      "stock_quantity": 2100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 87,
+      "name": "Winter Gloves",
+      "sku": "SKU-087",
+      "price": 199.9,
+      "stock_quantity": 2800,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 88,
+      "name": "Earmuffs",
+      "sku": "SKU-088",
+      "price": 149.9,
+      "stock_quantity": 1300,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 89,
+      "name": "Ski Jacket",
+      "sku": "SKU-089",
+      "price": 4999.9,
+      "stock_quantity": 260,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 90,
+      "name": "Ski Trousers",
+      "sku": "SKU-090",
+      "price": 3499.9,
+      "stock_quantity": 310,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 91,
+      "name": "Gym Bag",
+      "sku": "SKU-091",
+      "price": 899.9,
+      "stock_quantity": 1250,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 92,
+      "name": "Water Bottle",
+      "sku": "SKU-092",
+      "price": 249.9,
+      "stock_quantity": 4000,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 93,
+      "name": "Yoga Mat",
+      "sku": "SKU-093",
+      "price": 599.9,
+      "stock_quantity": 1500,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 94,
+      "name": "Resistance Bands",
+      "sku": "SKU-094",
+      "price": 199.9,
+      "stock_quantity": 3300,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 95,
+      "name": "Running Belt",
+      "sku": "SKU-095",
+      "price": 299.9,
+      "stock_quantity": 1700,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 96,
+      "name": "Sports Sunglasses",
+      "sku": "SKU-096",
+      "price": 799.9,
+      "stock_quantity": 850,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 97,
+      "name": "Swimming Goggles",
+      "sku": "SKU-097",
+      "price": 349.9,
+      "stock_quantity": 1950,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 98,
+      "name": "Swimming Cap",
+      "sku": "SKU-098",
+      "price": 149.9,
+      "stock_quantity": 2200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 99,
+      "name": "Microfibre Towel",
+      "sku": "SKU-099",
+      "price": 399.9,
+      "stock_quantity": 2600,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 100,
+      "name": "Flip Flops",
+      "sku": "SKU-100",
+      "price": 199.9,
+      "stock_quantity": 4800,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 101,
+      "name": "Tie-Dye T-Shirt",
+      "sku": "SKU-101",
+      "price": 549.9,
+      "stock_quantity": 1100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 102,
+      "name": "Knit Vest",
+      "sku": "SKU-102",
+      "price": 699.9,
+      "stock_quantity": 780,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 103,
+      "name": "Straight Leg Jeans",
+      "sku": "SKU-103",
+      "price": 1299.9,
+      "stock_quantity": 1400,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 104,
+      "name": "Fleece Gilet",
+      "sku": "SKU-104",
+      "price": 899.9,
+      "stock_quantity": 960,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 105,
+      "name": "Chino Shorts",
+      "sku": "SKU-105",
+      "price": 799.9,
+      "stock_quantity": 1750,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 106,
+      "name": "Desert Boots",
+      "sku": "SKU-106",
+      "price": 2899.9,
+      "stock_quantity": 490,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 107,
+      "name": "Messenger Bag",
+      "sku": "SKU-107",
+      "price": 1499.9,
+      "stock_quantity": 820,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 108,
+      "name": "Crop Top",
+      "sku": "SKU-108",
+      "price": 349.9,
+      "stock_quantity": 2300,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 109,
+      "name": "High Waist Leggings",
+      "sku": "SKU-109",
+      "price": 799.9,
+      "stock_quantity": 2900,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 110,
+      "name": "Cocktail Dress",
+      "sku": "SKU-110",
+      "price": 2499.9,
+      "stock_quantity": 560,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 111,
+      "name": "Pleated Skirt",
+      "sku": "SKU-111",
+      "price": 899.9,
+      "stock_quantity": 1120,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 112,
+      "name": "Ruffled Blouse",
+      "sku": "SKU-112",
+      "price": 849.9,
+      "stock_quantity": 1300,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 113,
+      "name": "Zip Hoodie",
+      "sku": "SKU-113",
+      "price": 999.9,
+      "stock_quantity": 1480,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 114,
+      "name": "Swimsuit",
+      "sku": "SKU-114",
+      "price": 899.9,
+      "stock_quantity": 1650,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 115,
+      "name": "Sun Hat",
+      "sku": "SKU-115",
+      "price": 399.9,
+      "stock_quantity": 1800,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 116,
+      "name": "Crossbody Bag",
+      "sku": "SKU-116",
+      "price": 1199.9,
+      "stock_quantity": 1240,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 117,
+      "name": "Satin Pyjamas",
+      "sku": "SKU-117",
+      "price": 1499.9,
+      "stock_quantity": 850,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 118,
+      "name": "Kimono Robe",
+      "sku": "SKU-118",
+      "price": 1799.9,
+      "stock_quantity": 620,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 119,
+      "name": "Fluffy Slippers",
+      "sku": "SKU-119",
+      "price": 449.9,
+      "stock_quantity": 2100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 120,
+      "name": "Bamboo Socks",
+      "sku": "SKU-120",
+      "price": 249.9,
+      "stock_quantity": 3800,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 121,
+      "name": "Logo T-Shirt",
+      "sku": "SKU-121",
+      "price": 599.9,
+      "stock_quantity": 2900,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 122,
+      "name": "Running Shorts",
+      "sku": "SKU-122",
+      "price": 549.9,
+      "stock_quantity": 1950,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 123,
+      "name": "Boyfriend Jeans",
+      "sku": "SKU-123",
+      "price": 1499.9,
+      "stock_quantity": 1050,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 124,
+      "name": "Pencil Skirt",
+      "sku": "SKU-124",
+      "price": 899.9,
+      "stock_quantity": 880,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 125,
+      "name": "Anorak Jacket",
+      "sku": "SKU-125",
+      "price": 2199.9,
+      "stock_quantity": 670,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 126,
+      "name": "Pocket Umbrella",
+      "sku": "SKU-126",
+      "price": 349.9,
+      "stock_quantity": 2400,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 127,
+      "name": "Knitted Gloves",
+      "sku": "SKU-127",
+      "price": 179.9,
+      "stock_quantity": 3100,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 128,
+      "name": "Fleece Scarf",
+      "sku": "SKU-128",
+      "price": 249.9,
+      "stock_quantity": 1600,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 129,
+      "name": "Ski Goggles",
+      "sku": "SKU-129",
+      "price": 1299.9,
+      "stock_quantity": 420,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 130,
+      "name": "Ski Gloves",
+      "sku": "SKU-130",
+      "price": 799.9,
+      "stock_quantity": 580,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 131,
+      "name": "Sports Backpack",
+      "sku": "SKU-131",
+      "price": 1399.9,
+      "stock_quantity": 1100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 132,
+      "name": "Shaker Bottle",
+      "sku": "SKU-132",
+      "price": 199.9,
+      "stock_quantity": 3500,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 133,
+      "name": "Yoga Block",
+      "sku": "SKU-133",
+      "price": 249.9,
+      "stock_quantity": 1800,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 134,
+      "name": "Foam Roller",
+      "sku": "SKU-134",
+      "price": 449.9,
+      "stock_quantity": 1200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 135,
+      "name": "Running Armband",
+      "sku": "SKU-135",
+      "price": 249.9,
+      "stock_quantity": 2100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 136,
+      "name": "Cycling Sunglasses",
+      "sku": "SKU-136",
+      "price": 899.9,
+      "stock_quantity": 730,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 137,
+      "name": "Nose Clip Set",
+      "sku": "SKU-137",
+      "price": 99.9,
+      "stock_quantity": 1500,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 138,
+      "name": "Earplugs Set",
+      "sku": "SKU-138",
+      "price": 99.9,
+      "stock_quantity": 1600,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 139,
+      "name": "Beach Towel",
+      "sku": "SKU-139",
+      "price": 599.9,
+      "stock_quantity": 2400,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 140,
+      "name": "Leather Sandals",
+      "sku": "SKU-140",
+      "price": 1499.9,
+      "stock_quantity": 890,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 141,
+      "name": "Printed Tee",
+      "sku": "SKU-141",
+      "price": 499.9,
+      "stock_quantity": 2700,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 142,
+      "name": "Sleeveless Vest",
+      "sku": "SKU-142",
+      "price": 399.9,
+      "stock_quantity": 1850,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 143,
+      "name": "Wide Leg Jeans",
+      "sku": "SKU-143",
+      "price": 1399.9,
+      "stock_quantity": 1120,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 144,
+      "name": "Quilted Gilet",
+      "sku": "SKU-144",
+      "price": 1199.9,
+      "stock_quantity": 810,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 145,
+      "name": "Linen Shorts",
+      "sku": "SKU-145",
+      "price": 849.9,
+      "stock_quantity": 1400,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 146,
+      "name": "Suede Boots",
+      "sku": "SKU-146",
+      "price": 3299.9,
+      "stock_quantity": 430,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 147,
+      "name": "Laptop Backpack",
+      "sku": "SKU-147",
+      "price": 1899.9,
+      "stock_quantity": 950,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 148,
+      "name": "Knit Crop Top",
+      "sku": "SKU-148",
+      "price": 449.9,
+      "stock_quantity": 1600,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 149,
+      "name": "Capri Trousers",
+      "sku": "SKU-149",
+      "price": 899.9,
+      "stock_quantity": 1200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 150,
+      "name": "Evening Dress",
+      "sku": "SKU-150",
+      "price": 3499.9,
+      "stock_quantity": 380,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 151,
+      "name": "A-Line Skirt",
+      "sku": "SKU-151",
+      "price": 949.9,
+      "stock_quantity": 1050,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 152,
+      "name": "Chiffon Blouse",
+      "sku": "SKU-152",
+      "price": 899.9,
+      "stock_quantity": 1250,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 153,
+      "name": "Pullover Hoodie",
+      "sku": "SKU-153",
+      "price": 949.9,
+      "stock_quantity": 1800,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 154,
+      "name": "Tankini Set",
+      "sku": "SKU-154",
+      "price": 799.9,
+      "stock_quantity": 1100,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 155,
+      "name": "Visor Hat",
+      "sku": "SKU-155",
+      "price": 299.9,
+      "stock_quantity": 1400,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 156,
+      "name": "Clutch Bag",
+      "sku": "SKU-156",
+      "price": 999.9,
+      "stock_quantity": 740,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 157,
+      "name": "Flannel Pyjamas",
+      "sku": "SKU-157",
+      "price": 1199.9,
+      "stock_quantity": 1350,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 158,
+      "name": "Fleece Robe",
+      "sku": "SKU-158",
+      "price": 1699.9,
+      "stock_quantity": 890,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 159,
+      "name": "Boot Slippers",
+      "sku": "SKU-159",
+      "price": 499.9,
+      "stock_quantity": 1550,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 160,
+      "name": "Wool Socks Set",
+      "sku": "SKU-160",
+      "price": 349.9,
+      "stock_quantity": 2300,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 161,
+      "name": "Vintage Tee",
+      "sku": "SKU-161",
+      "price": 599.9,
+      "stock_quantity": 1900,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 162,
+      "name": "Cycling Shorts",
+      "sku": "SKU-162",
+      "price": 449.9,
+      "stock_quantity": 2600,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 163,
+      "name": "Flare Jeans",
+      "sku": "SKU-163",
+      "price": 1399.9,
+      "stock_quantity": 980,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 164,
+      "name": "Denim Gilet",
+      "sku": "SKU-164",
+      "price": 1099.9,
+      "stock_quantity": 720,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 165,
+      "name": "Tailored Shorts",
+      "sku": "SKU-165",
+      "price": 899.9,
+      "stock_quantity": 1150,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 166,
+      "name": "Biker Boots",
+      "sku": "SKU-166",
+      "price": 3599.9,
+      "stock_quantity": 360,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 167,
+      "name": "Leather Backpack",
+      "sku": "SKU-167",
+      "price": 2999.9,
+      "stock_quantity": 450,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 168,
+      "name": "Ribbed Crop Top",
+      "sku": "SKU-168",
+      "price": 399.9,
+      "stock_quantity": 2100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 169,
+      "name": "Cargo Trousers",
+      "sku": "SKU-169",
+      "price": 1299.9,
+      "stock_quantity": 1650,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 170,
+      "name": "Prom Dress",
+      "sku": "SKU-170",
+      "price": 3999.9,
+      "stock_quantity": 290,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 171,
+      "name": "Wrap Skirt",
+      "sku": "SKU-171",
+      "price": 849.9,
+      "stock_quantity": 1300,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 172,
+      "name": "Silk Blouse",
+      "sku": "SKU-172",
+      "price": 1499.9,
+      "stock_quantity": 680,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 173,
+      "name": "Over-Head Hoodie",
+      "sku": "SKU-173",
+      "price": 899.9,
+      "stock_quantity": 1950,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 174,
+      "name": "Monokini",
+      "sku": "SKU-174",
+      "price": 949.9,
+      "stock_quantity": 850,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 175,
+      "name": "Fedora Hat",
+      "sku": "SKU-175",
+      "price": 499.9,
+      "stock_quantity": 920,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 176,
+      "name": "Satchel Bag",
+      "sku": "SKU-176",
+      "price": 1599.9,
+      "stock_quantity": 760,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 177,
+      "name": "Jersey Pyjamas",
+      "sku": "SKU-177",
+      "price": 899.9,
+      "stock_quantity": 2200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 178,
+      "name": "Waffle Robe",
+      "sku": "SKU-178",
+      "price": 1399.9,
+      "stock_quantity": 1100,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 179,
+      "name": "Mule Slippers",
+      "sku": "SKU-179",
+      "price": 349.9,
+      "stock_quantity": 2800,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 180,
+      "name": "Trainer Socks Set",
+      "sku": "SKU-180",
+      "price": 199.9,
+      "stock_quantity": 4500,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 181,
+      "name": "Heavyweight Tee",
+      "sku": "SKU-181",
+      "price": 649.9,
+      "stock_quantity": 1350,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 182,
+      "name": "Compression Shorts",
+      "sku": "SKU-182",
+      "price": 599.9,
+      "stock_quantity": 1700,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 183,
+      "name": "Bootcut Jeans",
+      "sku": "SKU-183",
+      "price": 1349.9,
+      "stock_quantity": 1200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 184,
+      "name": "Long Sleeve Gilet",
+      "sku": "SKU-184",
+      "price": 1299.9,
+      "stock_quantity": 640,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 185,
+      "name": "Smart Shorts",
+      "sku": "SKU-185",
+      "price": 949.9,
+      "stock_quantity": 1050,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 186,
+      "name": "Combat Boots",
+      "sku": "SKU-186",
+      "price": 3399.9,
+      "stock_quantity": 510,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 187,
+      "name": "Travel Backpack",
+      "sku": "SKU-187",
+      "price": 2499.9,
+      "stock_quantity": 880,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 188,
+      "name": "Lace Crop Top",
+      "sku": "SKU-188",
+      "price": 499.9,
+      "stock_quantity": 1400,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 189,
+      "name": "Utility Trousers",
+      "sku": "SKU-189",
+      "price": 1349.9,
+      "stock_quantity": 1250,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 190,
+      "name": "Bridesmaid Dress",
+      "sku": "SKU-190",
+      "price": 3799.9,
+      "stock_quantity": 320,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 191,
+      "name": "Tiered Skirt",
+      "sku": "SKU-191",
+      "price": 899.9,
+      "stock_quantity": 960,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 192,
+      "name": "Lace Blouse",
+      "sku": "SKU-192",
+      "price": 999.9,
+      "stock_quantity": 1100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 193,
+      "name": "Fleece Hoodie",
+      "sku": "SKU-193",
+      "price": 1099.9,
+      "stock_quantity": 1500,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 194,
+      "name": "Rash Guard",
+      "sku": "SKU-194",
+      "price": 649.9,
+      "stock_quantity": 1300,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 195,
+      "name": "Panama Hat",
+      "sku": "SKU-195",
+      "price": 549.9,
+      "stock_quantity": 650,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 196,
+      "name": "Briefcase",
+      "sku": "SKU-196",
+      "price": 3299.9,
+      "stock_quantity": 410,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 197,
+      "name": "Modal Pyjamas",
+      "sku": "SKU-197",
+      "price": 1299.9,
+      "stock_quantity": 1050,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 198,
+      "name": "Velour Robe",
+      "sku": "SKU-198",
+      "price": 1899.9,
+      "stock_quantity": 540,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 199,
+      "name": "Clog Slippers",
+      "sku": "SKU-199",
+      "price": 399.9,
+      "stock_quantity": 2100,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 200,
+      "name": "Crew Socks Set",
+      "sku": "SKU-200",
+      "price": 249.9,
+      "stock_quantity": 3900,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 201,
+      "name": "Supima Cotton Tee",
+      "sku": "SKU-201",
+      "price": 699.9,
+      "stock_quantity": 1800,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 202,
+      "name": "Mesh Sports Shorts",
+      "sku": "SKU-202",
+      "price": 499.9,
+      "stock_quantity": 2500,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 203,
+      "name": "Loose Fit Jeans",
+      "sku": "SKU-203",
+      "price": 1399.9,
+      "stock_quantity": 1100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 204,
+      "name": "Padded Vest Jacket",
+      "sku": "SKU-204",
+      "price": 1599.9,
+      "stock_quantity": 790,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 205,
+      "name": "Jersey Shorts",
+      "sku": "SKU-205",
+      "price": 449.9,
+      "stock_quantity": 3200,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 206,
+      "name": "Hiking Boots",
+      "sku": "SKU-206",
+      "price": 3899.9,
+      "stock_quantity": 620,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 207,
+      "name": "Duffle Bag XL",
+      "sku": "SKU-207",
+      "price": 2199.9,
+      "stock_quantity": 530,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 208,
+      "name": "Active Camisole",
+      "sku": "SKU-208",
+      "price": 349.9,
+      "stock_quantity": 1950,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 209,
+      "name": "Jogger Pants",
+      "sku": "SKU-209",
+      "price": 899.9,
+      "stock_quantity": 2700,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 210,
+      "name": "Sequined Dress",
+      "sku": "SKU-210",
+      "price": 4499.9,
+      "stock_quantity": 240,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 211,
+      "name": "Asymmetric Skirt",
+      "sku": "SKU-211",
+      "price": 999.9,
+      "stock_quantity": 870,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 212,
+      "name": "Peplum Top",
+      "sku": "SKU-212",
+      "price": 749.9,
+      "stock_quantity": 1200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 213,
+      "name": "Heavy Hoodie",
+      "sku": "SKU-213",
+      "price": 1299.9,
+      "stock_quantity": 1150,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 214,
+      "name": "Swim Skirt",
+      "sku": "SKU-214",
+      "price": 549.9,
+      "stock_quantity": 960,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 215,
+      "name": "Flat Cap",
+      "sku": "SKU-215",
+      "price": 399.9,
+      "stock_quantity": 840,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 216,
+      "name": "Leather Tote Bag",
+      "sku": "SKU-216",
+      "price": 3499.9,
+      "stock_quantity": 380,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 217,
+      "name": "Knit Pyjama Set",
+      "sku": "SKU-217",
+      "price": 1099.9,
+      "stock_quantity": 1400,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 218,
+      "name": "Satin Robe",
+      "sku": "SKU-218",
+      "price": 1999.9,
+      "stock_quantity": 610,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 219,
+      "name": "Sheepskin Slippers",
+      "sku": "SKU-219",
+      "price": 799.9,
+      "stock_quantity": 930,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 220,
+      "name": "No-Show Socks 10pk",
+      "sku": "SKU-220",
+      "price": 299.9,
+      "stock_quantity": 5500,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 221,
+      "name": "Relaxed Fit Tee",
+      "sku": "SKU-221",
+      "price": 499.9,
+      "stock_quantity": 2300,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 222,
+      "name": "Track Shorts",
+      "sku": "SKU-222",
+      "price": 599.9,
+      "stock_quantity": 1600,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 223,
+      "name": "Tapered Jeans",
+      "sku": "SKU-223",
+      "price": 1349.9,
+      "stock_quantity": 1250,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 224,
+      "name": "Lightweight Gilet",
+      "sku": "SKU-224",
+      "price": 999.9,
+      "stock_quantity": 940,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 225,
+      "name": "Beach Shorts",
+      "sku": "SKU-225",
+      "price": 399.9,
+      "stock_quantity": 2800,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 226,
+      "name": "Suede Loafers V2",
+      "sku": "SKU-226",
+      "price": 2499.9,
+      "stock_quantity": 470,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 227,
+      "name": "Urban Backpack",
+      "sku": "SKU-227",
+      "price": 1699.9,
+      "stock_quantity": 1120,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 228,
+      "name": "Square Neck Crop",
+      "sku": "SKU-228",
+      "price": 379.9,
+      "stock_quantity": 1850,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 229,
+      "name": "Linen Trousers",
+      "sku": "SKU-229",
+      "price": 1199.9,
+      "stock_quantity": 1300,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 230,
+      "name": "Gown Dress",
+      "sku": "SKU-230",
+      "price": 4999.9,
+      "stock_quantity": 180,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 231,
+      "name": "Button Skirt",
+      "sku": "SKU-231",
+      "price": 799.9,
+      "stock_quantity": 1400,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 232,
+      "name": "Tunic Blouse",
+      "sku": "SKU-232",
+      "price": 949.9,
+      "stock_quantity": 1050,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 233,
+      "name": "Teddy Hoodie",
+      "sku": "SKU-233",
+      "price": 1499.9,
+      "stock_quantity": 680,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 234,
+      "name": "Swim Shorts Premium",
+      "sku": "SKU-234",
+      "price": 599.9,
+      "stock_quantity": 1500,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 235,
+      "name": "Boater Hat",
+      "sku": "SKU-235",
+      "price": 449.9,
+      "stock_quantity": 720,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 236,
+      "name": "Sling Bag",
+      "sku": "SKU-236",
+      "price": 899.9,
+      "stock_quantity": 1950,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 237,
+      "name": "Thermal Pyjama Set",
+      "sku": "SKU-237",
+      "price": 1399.9,
+      "stock_quantity": 1200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 238,
+      "name": "Hooded Robe",
+      "sku": "SKU-238",
+      "price": 1799.9,
+      "stock_quantity": 830,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 239,
+      "name": "Ballet Slippers",
+      "sku": "SKU-239",
+      "price": 299.9,
+      "stock_quantity": 2400,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 240,
+      "name": "Cushioned Socks Set",
+      "sku": "SKU-240",
+      "price": 319.9,
+      "stock_quantity": 3100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 241,
+      "name": "Slub Cotton Tee",
+      "sku": "SKU-241",
+      "price": 529.9,
+      "stock_quantity": 2100,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 242,
+      "name": "Gym Training Shorts",
+      "sku": "SKU-242",
+      "price": 649.9,
+      "stock_quantity": 1750,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 243,
+      "name": "Distressed Jeans",
+      "sku": "SKU-243",
+      "price": 1499.9,
+      "stock_quantity": 910,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 244,
+      "name": "Windproof Gilet",
+      "sku": "SKU-244",
+      "price": 1199.9,
+      "stock_quantity": 620,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 245,
+      "name": "Tailored Linens",
+      "sku": "SKU-245",
+      "price": 999.9,
+      "stock_quantity": 1100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 246,
+      "name": "Western Boots",
+      "sku": "SKU-246",
+      "price": 3999.9,
+      "stock_quantity": 270,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 247,
+      "name": "Commuter Backpack",
+      "sku": "SKU-247",
+      "price": 1999.9,
+      "stock_quantity": 990,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 248,
+      "name": "Asymmetric Crop Top",
+      "sku": "SKU-248",
+      "price": 429.9,
+      "stock_quantity": 1650,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 249,
+      "name": "Wide Leg Trousers",
+      "sku": "SKU-249",
+      "price": 1399.9,
+      "stock_quantity": 1400,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 250,
+      "name": "Ball Gown",
+      "sku": "SKU-250",
+      "price": 5500,
+      "stock_quantity": 120,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 251,
+      "name": "Gingham Skirt",
+      "sku": "SKU-251",
+      "price": 849.9,
+      "stock_quantity": 1250,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 252,
+      "name": "Tie-Neck Blouse",
+      "sku": "SKU-252",
+      "price": 999.9,
+      "stock_quantity": 880,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 253,
+      "name": "Knit Hoodie",
+      "sku": "SKU-253",
+      "price": 1399.9,
+      "stock_quantity": 730,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 254,
+      "name": "Cover-Up Dress",
+      "sku": "SKU-254",
+      "price": 699.9,
+      "stock_quantity": 1800,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 255,
+      "name": "Sun Visor Premium",
+      "sku": "SKU-255",
+      "price": 349.9,
+      "stock_quantity": 1350,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 256,
+      "name": "Bumbag",
+      "sku": "SKU-256",
+      "price": 699.9,
+      "stock_quantity": 2600,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 257,
+      "name": "Fleece Pyjama Bottoms",
+      "sku": "SKU-257",
+      "price": 799.9,
+      "stock_quantity": 1950,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 258,
+      "name": "Zip-Up Robe",
+      "sku": "SKU-258",
+      "price": 1599.9,
+      "stock_quantity": 910,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 259,
+      "name": "Sandal Slippers",
+      "sku": "SKU-259",
+      "price": 379.9,
+      "stock_quantity": 2200,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 260,
+      "name": "Sports Socks 5pk",
+      "sku": "SKU-260",
+      "price": 399.9,
+      "stock_quantity": 4200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 261,
+      "name": "Organic Cotton Tee",
+      "sku": "SKU-261",
+      "price": 599.9,
+      "stock_quantity": 2900,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 262,
+      "name": "Athletic Shorts",
+      "sku": "SKU-262",
+      "price": 699.9,
+      "stock_quantity": 1450,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 263,
+      "name": "Slim Jeans V2",
+      "sku": "SKU-263",
+      "price": 1299.9,
+      "stock_quantity": 1650,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 264,
+      "name": "Down Gilet",
+      "sku": "SKU-264",
+      "price": 1899.9,
+      "stock_quantity": 580,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 265,
+      "name": "Linen Blend Shorts",
+      "sku": "SKU-265",
+      "price": 799.9,
+      "stock_quantity": 2100,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 266,
+      "name": "Ankle Boots Leather",
+      "sku": "SKU-266",
+      "price": 3499.9,
+      "stock_quantity": 410,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 267,
+      "name": "Daypack Minimalist",
+      "sku": "SKU-267",
+      "price": 1499.9,
+      "stock_quantity": 1200,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 268,
+      "name": "Halter Neck Crop",
+      "sku": "SKU-268",
+      "price": 399.9,
+      "stock_quantity": 1700,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 269,
+      "name": "Smart Tailored Pants",
+      "sku": "SKU-269",
+      "price": 1499.9,
+      "stock_quantity": 980,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 270,
+      "name": "Maxi Evening Dress",
+      "sku": "SKU-270",
+      "price": 4299.9,
+      "stock_quantity": 210,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 271,
+      "name": "Floral Skirt",
+      "sku": "SKU-271",
+      "price": 899.9,
+      "stock_quantity": 1350,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 272,
+      "name": "Wrap Blouse",
+      "sku": "SKU-272",
+      "price": 949.9,
+      "stock_quantity": 1150,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 273,
+      "name": "Sherpa Hoodie",
+      "sku": "SKU-273",
+      "price": 1699.9,
+      "stock_quantity": 640,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 274,
+      "name": "Swim Boardshorts",
+      "sku": "SKU-274",
+      "price": 649.9,
+      "stock_quantity": 1600,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 275,
+      "name": "Safari Hat",
+      "sku": "SKU-275",
+      "price": 499.9,
+      "stock_quantity": 530,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 276,
+      "name": "Chest Bag",
+      "sku": "SKU-276",
+      "price": 799.9,
+      "stock_quantity": 1800,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 277,
+      "name": "Luxury Pyjama Set",
+      "sku": "SKU-277",
+      "price": 1999.9,
+      "stock_quantity": 480,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 278,
+      "name": "Plush Robe",
+      "sku": "SKU-278",
+      "price": 1499.9,
+      "stock_quantity": 1250,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 279,
+      "name": "Home Slippers Knit",
+      "sku": "SKU-279",
+      "price": 329.9,
+      "stock_quantity": 2700,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 280,
+      "name": "Bamboo Socks 3pk",
+      "sku": "SKU-280",
+      "price": 279.9,
+      "stock_quantity": 3400,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 281,
+      "name": "Heavyweight Boxy Tee",
+      "sku": "SKU-281",
+      "price": 699.9,
+      "stock_quantity": 1400,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 282,
+      "name": "Gym Compression Shorts",
+      "sku": "SKU-282",
+      "price": 649.9,
+      "stock_quantity": 1900,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 283,
+      "name": "Regular Fit Jeans",
+      "sku": "SKU-283",
+      "price": 1299.9,
+      "stock_quantity": 1500,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 284,
+      "name": "Winter Gilet Padded",
+      "sku": "SKU-284",
+      "price": 1699.9,
+      "stock_quantity": 760,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 285,
+      "name": "Linen Casual Shorts",
+      "sku": "SKU-285",
+      "price": 849.9,
+      "stock_quantity": 1100,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 286,
+      "name": "Chelsea Leather Boots",
+      "sku": "SKU-286",
+      "price": 3699.9,
+      "stock_quantity": 390,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 287,
+      "name": "Rolltop Backpack",
+      "sku": "SKU-287",
+      "price": 2299.9,
+      "stock_quantity": 820,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 288,
+      "name": "V-Neck Crop Top",
+      "sku": "SKU-288",
+      "price": 349.9,
+      "stock_quantity": 2300,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 289,
+      "name": "Chino Trousers Slim",
+      "sku": "SKU-289",
+      "price": 1249.9,
+      "stock_quantity": 1300,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 290,
+      "name": "Mermaid Dress",
+      "sku": "SKU-290",
+      "price": 4799.9,
+      "stock_quantity": 150,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 291,
+      "name": "High Waist Skirt",
+      "sku": "SKU-291",
+      "price": 899.9,
+      "stock_quantity": 1120,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 292,
+      "name": "Peplum Blouse",
+      "sku": "SKU-292",
+      "price": 899.9,
+      "stock_quantity": 950,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 293,
+      "name": "Over-Sized Hoodie V2",
+      "sku": "SKU-293",
+      "price": 1199.9,
+      "stock_quantity": 1480,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 294,
+      "name": "Swim Bikini Highwaist",
+      "sku": "SKU-294",
+      "price": 749.9,
+      "stock_quantity": 1250,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 295,
+      "name": "Wide Brim Sunhat",
+      "sku": "SKU-295",
+      "price": 459.9,
+      "stock_quantity": 680,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 296,
+      "name": "Leather Crossbody Bag",
+      "sku": "SKU-296",
+      "price": 2899.9,
+      "stock_quantity": 430,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 297,
+      "name": "Cotton Lounge Pyjamas",
+      "sku": "SKU-297",
+      "price": 1099.9,
+      "stock_quantity": 1600,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 298,
+      "name": "Fleece Bathrobe XL",
+      "sku": "SKU-298",
+      "price": 1799.9,
+      "stock_quantity": 780,
+      "is_active": false,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 299,
+      "name": "Premium Sheepskin Mules",
+      "sku": "SKU-299",
+      "price": 899.9,
+      "stock_quantity": 850,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "id": 300,
+      "name": "Ankle Socks 10pk Blue",
+      "sku": "SKU-300",
+      "price": 299.9,
+      "stock_quantity": 4900,
+      "is_active": true,
+      "updated_at": "2026-05-21T12:00:00.000Z"
     }
   ]
 }

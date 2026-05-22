@@ -1,17 +1,19 @@
 export const buildQueryString = (params: Record<string, string | string[]>) => {
-  const query = []
+  const searchParams = new URLSearchParams()
 
-  for (const key in params) {
-    const value = params[key]
+  Object.entries(params).forEach(([key, value]) => {
+    if (!value) return
 
     if (Array.isArray(value)) {
-      value.forEach((val) => {
-        query.push(`${encodeURIComponent(key)}=${encodeURIComponent(val)}`)
-      })
+      value.filter((v) => v?.trim()).forEach((v) => searchParams.append(key, v))
     } else {
-      query.push(`${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
+      if (value.trim()) {
+        searchParams.append(key, value)
+      }
     }
-  }
+  })
 
-  return query.length ? `?${query.join("&")}` : ""
+  const query = searchParams.toString()
+
+  return query ? `?${query}` : ''
 }

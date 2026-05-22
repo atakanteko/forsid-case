@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
-import {ROUTE_NAMES} from '@/constants'
+import { ROUTE_NAMES } from '@/constants'
 import DefaultLayout from '@/layouts/DefaultLayout.vue'
-import ProductStockPage from '@/pages/ProductStockPage.vue'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -10,8 +9,13 @@ const routes: RouteRecordRaw[] = [
     children: [
       {
         path: '',
+        redirect: { name: ROUTE_NAMES.PRODUCT.STOCK },
+      },
+      {
+        path: 'products/stock',
         name: ROUTE_NAMES.PRODUCT.STOCK,
-        component: ProductStockPage,
+        component: () => import('@/pages/ProductStockPage.vue'),
+        meta: { title: 'Product Stock' },
       },
     ],
   },
@@ -20,6 +24,11 @@ const routes: RouteRecordRaw[] = [
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,
+})
+
+router.afterEach((to) => {
+  const title = to.meta.title as string | undefined
+  document.title = title ? `${title} · Forsid PSM` : 'Forsid PSM'
 })
 
 export default router

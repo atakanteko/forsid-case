@@ -1,5 +1,5 @@
-import type { AxiosInstance, AxiosRequestConfig, AxiosResponse } from "axios"
-import { buildQueryString } from "@/shared/helpers"
+import type { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios'
+import { buildQueryString } from '@/shared/helpers'
 
 export const createHttpRequests = (clientApi: AxiosInstance) => {
   const getRequest = async <T, A = Record<string, string | string[]>>(
