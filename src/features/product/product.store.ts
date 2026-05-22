@@ -15,13 +15,22 @@ export const useProductsStore = defineStore('products', () => {
     search.value = value
   }
 
-  function setStatus(value: number) {
-    page.value = value
+  function setStatus(value: string) {
+    status.value = value
   }
 
   function setStock(value: string) {
-    search.value = value
+    stock.value = value
   }
 
-  return { page, search, status, stock, setPage, setSearch, setStock, setStatus }
+  return {
+    page,
+    search,
+    status,
+    stock,
+    setPage,
+    setSearch,
+    setStock,
+    setStatus,
+  }
 })

@@ -81,39 +81,47 @@ const errorMessage = computed(() => {
             <TableBody class="min-h-[520px]">
               <ProductTableLoading v-if="isLoading" />
 
-              <TableRow
-                v-for="item in products?.data"
-                :key="item.id"
-                :class="item.stock_quantity === 0 ? 'animate-pulse bg-red-200 text-red-700' : ''"
-              >
-                <TableCell class="font-medium">
-                  {{ item.name }}
-                </TableCell>
+              <template v-else-if="products?.data?.length">
+                <TableRow
+                  v-for="item in products.data"
+                  :key="item.id"
+                  :class="item.stock_quantity === 0 ? 'animate-pulse bg-red-200 text-red-700' : ''"
+                >
+                  <TableCell class="font-medium">
+                    {{ item.name }}
+                  </TableCell>
 
-                <TableCell>
-                  {{ item.sku }}
-                </TableCell>
+                  <TableCell>
+                    {{ item.sku }}
+                  </TableCell>
 
-                <TableCell>
-                  {{ item.price }}
-                </TableCell>
+                  <TableCell>
+                    {{ item.price }}
+                  </TableCell>
 
-                <TableCell>
-                  {{ item.stock_quantity }}
-                </TableCell>
+                  <TableCell>
+                    {{ item.stock_quantity }}
+                  </TableCell>
 
-                <TableCell>
-                  <Badge :variant="item.is_active ? 'default' : 'destructive'" class="w-20">
-                    {{ item.is_active ? 'Active' : 'Inactive' }}
-                  </Badge>
-                </TableCell>
+                  <TableCell>
+                    <Badge :variant="item.is_active ? 'default' : 'destructive'" class="w-20">
+                      {{ item.is_active ? 'Active' : 'Inactive' }}
+                    </Badge>
+                  </TableCell>
 
-                <TableCell>
-                  {{ formatDate(item.updated_at) }}
-                </TableCell>
+                  <TableCell>
+                    {{ formatDate(item.updated_at) }}
+                  </TableCell>
 
-                <TableCell>
-                  <ProductTableActions :product="item" />
+                  <TableCell>
+                    <ProductTableActions :product="item" />
+                  </TableCell>
+                </TableRow>
+              </template>
+
+              <TableRow v-else>
+                <TableCell colspan="7" class="h-[520px] text-center text-muted-foreground">
+                  No products found.
                 </TableCell>
               </TableRow>
             </TableBody>
