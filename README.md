@@ -30,17 +30,17 @@ Available endpoints:
 - GET /products
 - PATCH /products/:id/stock
 
-## 4. Run Frontend (Vue 3 + Vite)
+## 4. Environment
+
+Create a .env file and copy the contents of the .env.example file into it.
+
+## 5. Run Frontend (Vue 3 + Vite)
 
 Start the development server:
 
 ```bash
 npm run dev
 ```
-
-## 5. Environment
-
-Create a .env file and copy the contents of the .env.example file into it.
 
 ## 6. Notes
 
