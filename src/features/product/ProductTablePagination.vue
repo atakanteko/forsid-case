@@ -41,8 +41,8 @@ const store = useProductsStore()
 
         <PaginationEllipsis :index="4" />
 
-        <PaginationNext />
-      </PaginationContent @click="store.setPage(store.page + 1)" >
+        <PaginationNext @click="store.setPage(store.page + 1)" />
+      </PaginationContent>
     </Pagination>
   </div>
 </template>
