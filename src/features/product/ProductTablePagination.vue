@@ -26,7 +26,7 @@ const store = useProductsStore()
       :default-page="1"
     >
       <PaginationContent v-slot="{ items }">
-        <PaginationPrevious />
+        <PaginationPrevious @click="store.setPage(store.page - 1)" />
 
         <template v-for="(item, index) in items" :key="index">
           <PaginationItem
@@ -42,7 +42,7 @@ const store = useProductsStore()
         <PaginationEllipsis :index="4" />
 
         <PaginationNext />
-      </PaginationContent>
+      </PaginationContent @click="store.setPage(store.page + 1)" >
     </Pagination>
   </div>
 </template>
